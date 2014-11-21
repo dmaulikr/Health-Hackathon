@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 Patryk Drozd. All rights reserved.
 //
 
-#import "ViewController.h"
+#import <UIKit/UIKit.h>
 
-@interface LoginView : ViewController
+@interface LoginView : UIViewController
 @property (weak, nonatomic) IBOutlet UIButton *nextButton;
 
 - (IBAction)nextButtonPressed:(id)sender;

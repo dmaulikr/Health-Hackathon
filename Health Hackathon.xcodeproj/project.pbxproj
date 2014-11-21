@@ -11,6 +11,7 @@
 		88C8C54A1A1F51DC00690AF8 /* cc.large.png in Resources */ = {isa = PBXBuildFile; fileRef = 88C8C5471A1F51DC00690AF8 /* cc.large.png */; };
 		88C8C54B1A1F51DC00690AF8 /* 13685.png in Resources */ = {isa = PBXBuildFile; fileRef = 88C8C5481A1F51DC00690AF8 /* 13685.png */; };
 		88C8C54D1A1F545D00690AF8 /* cuadricula.png in Resources */ = {isa = PBXBuildFile; fileRef = 88C8C54C1A1F545D00690AF8 /* cuadricula.png */; };
+		88C8C54F1A1F61BB00690AF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C8C54E1A1F61BB00690AF8 /* UIKit.framework */; };
 		BBA0864B1A1F4A8E00D9EA03 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA0864A1A1F4A8E00D9EA03 /* LoginView.m */; };
 		BBA0864F1A1F4AAD00D9EA03 /* SyncView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA0864E1A1F4AAD00D9EA03 /* SyncView.m */; };
 		BBA086521A1F4ABE00D9EA03 /* DashboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA086511A1F4ABE00D9EA03 /* DashboardView.m */; };
@@ -27,7 +28,6 @@
 		BBA0876F1A1F4FC900D9EA03 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA087661A1F4FC900D9EA03 /* AFURLSessionManager.m */; };
 		BBE733CC1A1F2D1400AF41D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE733CB1A1F2D1400AF41D9 /* main.m */; };
 		BBE733CF1A1F2D1400AF41D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE733CE1A1F2D1400AF41D9 /* AppDelegate.m */; };
-		BBE733D21A1F2D1400AF41D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE733D11A1F2D1400AF41D9 /* ViewController.m */; };
 		BBE733D51A1F2D1400AF41D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBE733D31A1F2D1400AF41D9 /* Main.storyboard */; };
 		BBE733D71A1F2D1400AF41D9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBE733D61A1F2D1400AF41D9 /* Images.xcassets */; };
 		BBE733DA1A1F2D1400AF41D9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBE733D81A1F2D1400AF41D9 /* LaunchScreen.xib */; };
@@ -49,6 +49,7 @@
 		88C8C5471A1F51DC00690AF8 /* cc.large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cc.large.png; sourceTree = "<group>"; };
 		88C8C5481A1F51DC00690AF8 /* 13685.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 13685.png; sourceTree = "<group>"; };
 		88C8C54C1A1F545D00690AF8 /* cuadricula.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuadricula.png; sourceTree = "<group>"; };
+		88C8C54E1A1F61BB00690AF8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BBA086491A1F4A8E00D9EA03 /* LoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
 		BBA0864A1A1F4A8E00D9EA03 /* LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
 		BBA0864D1A1F4AAD00D9EA03 /* SyncView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyncView.h; sourceTree = "<group>"; };
@@ -83,8 +84,6 @@
 		BBE733CB1A1F2D1400AF41D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BBE733CD1A1F2D1400AF41D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BBE733CE1A1F2D1400AF41D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BBE733D01A1F2D1400AF41D9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BBE733D11A1F2D1400AF41D9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BBE733D41A1F2D1400AF41D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BBE733D61A1F2D1400AF41D9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BBE733D91A1F2D1400AF41D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -98,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88C8C54F1A1F61BB00690AF8 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +120,14 @@
 				88C8C54C1A1F545D00690AF8 /* cuadricula.png */,
 			);
 			name = GRAPHIC;
+			sourceTree = "<group>";
+		};
+		88C8C5501A1F61C100690AF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88C8C54E1A1F61BB00690AF8 /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		BBA0864C1A1F4A9300D9EA03 /* Views */ = {
@@ -197,8 +205,6 @@
 				BBA0864C1A1F4A9300D9EA03 /* Views */,
 				BBE733CD1A1F2D1400AF41D9 /* AppDelegate.h */,
 				BBE733CE1A1F2D1400AF41D9 /* AppDelegate.m */,
-				BBE733D01A1F2D1400AF41D9 /* ViewController.h */,
-				BBE733D11A1F2D1400AF41D9 /* ViewController.m */,
 				BBE733D31A1F2D1400AF41D9 /* Main.storyboard */,
 				BBE733D61A1F2D1400AF41D9 /* Images.xcassets */,
 				BBE733D81A1F2D1400AF41D9 /* LaunchScreen.xib */,
@@ -231,6 +237,7 @@
 			isa = PBXGroup;
 			children = (
 				BBE733E41A1F2D1400AF41D9 /* Info.plist */,
+				88C8C5501A1F61C100690AF8 /* Frameworks */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -346,7 +353,6 @@
 				BBA0864F1A1F4AAD00D9EA03 /* SyncView.m in Sources */,
 				BBA087681A1F4FC900D9EA03 /* AFHTTPRequestOperationManager.m in Sources */,
 				BBA086521A1F4ABE00D9EA03 /* DashboardView.m in Sources */,
-				BBE733D21A1F2D1400AF41D9 /* ViewController.m in Sources */,
 				BBA087691A1F4FC900D9EA03 /* AFHTTPSessionManager.m in Sources */,
 				BBE733CF1A1F2D1400AF41D9 /* AppDelegate.m in Sources */,
 				BBA086551A1F4C4E00D9EA03 /* ValueView.m in Sources */,
