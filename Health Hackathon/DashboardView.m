@@ -32,10 +32,15 @@
 {
     CGRect koloriaPlusFrame =  _KaloriaPlus.frame;
     koloriaPlusFrame.size.height = 0;
+    koloriaPlusFrame.origin.y = 618;
+
+    
     _KaloriaPlus.frame = koloriaPlusFrame;
     
     CGRect colorialMinusFrame =  _CaloriaMenus.frame;
     colorialMinusFrame.size.height = 0;
+    colorialMinusFrame.origin.y = 618;
+
     _CaloriaMenus.frame = colorialMinusFrame;
 }
 
