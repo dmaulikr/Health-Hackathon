@@ -44,7 +44,6 @@
 		BBE733CF1A1F2D1400AF41D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE733CE1A1F2D1400AF41D9 /* AppDelegate.m */; };
 		BBE733D51A1F2D1400AF41D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBE733D31A1F2D1400AF41D9 /* Main.storyboard */; };
 		BBE733D71A1F2D1400AF41D9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBE733D61A1F2D1400AF41D9 /* Images.xcassets */; };
-		BBE733DA1A1F2D1400AF41D9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBE733D81A1F2D1400AF41D9 /* LaunchScreen.xib */; };
 		BBE733E61A1F2D1400AF41D9 /* Health_HackathonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE733E51A1F2D1400AF41D9 /* Health_HackathonTests.m */; };
 /* End PBXBuildFile section */
 
@@ -117,7 +116,6 @@
 		BBE733CE1A1F2D1400AF41D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BBE733D41A1F2D1400AF41D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BBE733D61A1F2D1400AF41D9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		BBE733D91A1F2D1400AF41D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BBE733DF1A1F2D1400AF41D9 /* Health HackathonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Health HackathonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBE733E41A1F2D1400AF41D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBE733E51A1F2D1400AF41D9 /* Health_HackathonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Health_HackathonTests.m; sourceTree = "<group>"; };
@@ -274,7 +272,6 @@
 				88C8C56D1A1F95E800690AF8 /* Anual.h */,
 				88C8C56E1A1F95E800690AF8 /* Anual.m */,
 				BBE733D61A1F2D1400AF41D9 /* Images.xcassets */,
-				BBE733D81A1F2D1400AF41D9 /* LaunchScreen.xib */,
 				BBE733C91A1F2D1400AF41D9 /* Supporting Files */,
 			);
 			path = "Health Hackathon";
@@ -393,7 +390,6 @@
 			files = (
 				BBE733D51A1F2D1400AF41D9 /* Main.storyboard in Resources */,
 				88C8C5671A1F93F400690AF8 /* calculadora_calorias.png in Resources */,
-				BBE733DA1A1F2D1400AF41D9 /* LaunchScreen.xib in Resources */,
 				88C8C5661A1F93F400690AF8 /* calculadora_calorias_quemadas.png in Resources */,
 				88C8C5691A1F93F400690AF8 /* calculadora_calorias_pilates.png in Resources */,
 				88C8C56A1A1F93F400690AF8 /* calculadora_calorias_andar.png in Resources */,
@@ -469,14 +465,6 @@
 				BBE733D41A1F2D1400AF41D9 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BBE733D81A1F2D1400AF41D9 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BBE733D91A1F2D1400AF41D9 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

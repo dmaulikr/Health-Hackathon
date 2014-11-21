@@ -28,8 +28,6 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-<<<<<<< HEAD
 -(void)viewWillAppear:(BOOL)animated
 {
     CGRect koloriaPlusFrame =  _KaloriaPlus.frame;
@@ -57,17 +55,14 @@
     }];
 }
 
-/*
-=======
 
->>>>>>> FETCH_HEAD
 #pragma mark - Navigation
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if ([[segue identifier] isEqualToString:@"dashboardToValue"])
     {
         ValueView *vc = [segue destinationViewController];
-        NSLog(@"isMinusPressed %hhd",self.isMinusPressed);
+        NSLog(@"isMinusPressed%hhd",self.isMinusPressed);
         vc.isMinus = self.isMinusPressed;
         if (self.isMinusPressed) {
             [vc setInformation:@"Minus"];
