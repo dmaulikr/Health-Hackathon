@@ -12,6 +12,8 @@
 		88C8C54B1A1F51DC00690AF8 /* 13685.png in Resources */ = {isa = PBXBuildFile; fileRef = 88C8C5481A1F51DC00690AF8 /* 13685.png */; };
 		88C8C54D1A1F545D00690AF8 /* cuadricula.png in Resources */ = {isa = PBXBuildFile; fileRef = 88C8C54C1A1F545D00690AF8 /* cuadricula.png */; };
 		88C8C54F1A1F61BB00690AF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C8C54E1A1F61BB00690AF8 /* UIKit.framework */; };
+		BB03AB881A1F6928002F58D7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB03AB861A1F6928002F58D7 /* CFNetwork.framework */; };
+		BB03AB891A1F6928002F58D7 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB03AB871A1F6928002F58D7 /* NetworkExtension.framework */; };
 		BBA0864B1A1F4A8E00D9EA03 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA0864A1A1F4A8E00D9EA03 /* LoginView.m */; };
 		BBA0864F1A1F4AAD00D9EA03 /* SyncView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA0864E1A1F4AAD00D9EA03 /* SyncView.m */; };
 		BBA086521A1F4ABE00D9EA03 /* DashboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA086511A1F4ABE00D9EA03 /* DashboardView.m */; };
@@ -51,6 +53,8 @@
 		88C8C5481A1F51DC00690AF8 /* 13685.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 13685.png; sourceTree = "<group>"; };
 		88C8C54C1A1F545D00690AF8 /* cuadricula.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuadricula.png; sourceTree = "<group>"; };
 		88C8C54E1A1F61BB00690AF8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BB03AB861A1F6928002F58D7 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		BB03AB871A1F6928002F58D7 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
 		BBA086491A1F4A8E00D9EA03 /* LoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
 		BBA0864A1A1F4A8E00D9EA03 /* LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
 		BBA0864D1A1F4AAD00D9EA03 /* SyncView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyncView.h; sourceTree = "<group>"; };
@@ -100,6 +104,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB03AB881A1F6928002F58D7 /* CFNetwork.framework in Frameworks */,
+				BB03AB891A1F6928002F58D7 /* NetworkExtension.framework in Frameworks */,
 				88C8C54F1A1F61BB00690AF8 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,6 +202,8 @@
 		BBE733BD1A1F2D1400AF41D9 = {
 			isa = PBXGroup;
 			children = (
+				BB03AB861A1F6928002F58D7 /* CFNetwork.framework */,
+				BB03AB871A1F6928002F58D7 /* NetworkExtension.framework */,
 				BBE733C81A1F2D1400AF41D9 /* Health Hackathon */,
 				BBE733E21A1F2D1400AF41D9 /* Health HackathonTests */,
 				BBE733C71A1F2D1400AF41D9 /* Products */,

@@ -10,11 +10,11 @@
 
 @interface UserInformationModel : NSObject
 
-@property(nonatomic) float weight;
-@property(nonatomic) float heigh;
-@property(nonatomic) int age;
-@property(nonatomic) int sex;
+@property(nonatomic, strong) NSString *weight;
+@property(nonatomic, strong) NSString *heigh;
+@property(nonatomic, strong) NSString *age;
+@property(nonatomic, strong) NSString *sex;
 
--(id)initWithWeight:(float)aWeight height:(float)aHeight age:(int)aAge sex:(int)aSex;
+-(id)initWithWeight:(NSString *)aWeight height:(NSString *)aHeight age:(NSString *)aAge sex:(NSString *)aSex;
 
 @end

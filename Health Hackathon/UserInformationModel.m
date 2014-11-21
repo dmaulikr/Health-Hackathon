@@ -25,7 +25,7 @@
     return self;
 }
 
--(id)initWithWeight:(float)aWeight height:(float)aHeight age:(int)aAge sex:(int)aSex
+-(id)initWithWeight:(NSString *)aWeight height:(NSString *)aHeight age:(NSString *)aAge sex:(NSString *)aSex
 {
     self = [super init];
     if (self) {
