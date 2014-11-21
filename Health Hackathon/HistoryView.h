@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 Patryk Drozd. All rights reserved.
 //
 
-#import "ViewController.h"
+#import <UIKit/UIKit.h>
 
-@interface HistoryView : ViewController
+@interface HistoryView : UIViewController
 
 @end

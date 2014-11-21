@@ -36,16 +36,25 @@
     __weak SyncView *weakSelf = self;
 
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+    manager.requestSerializer = [AFJSONRequestSerializer serializer];
+
     NSString *uuidString = [[NSUUID UUID] UUIDString];
     NSLog(@"uuid %@",uuidString);
-    NSDictionary *parameters = @{@"uuidString": @"device_no"};
+    //NSDictionary *parameters = @{@"uuidString": @"device_no"};
     
     NSString *url = [NSString stringWithFormat:@"%@/%@",self.appDelegate.serverUrl,uuidString];
     NSLog(@"url %@",url);
 
     [manager POST:url parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
         NSLog(@"JSON: %@", responseObject);
-        [weakSelf moveToNextView];
+        if ([responseObject isKindOfClass:[NSArray class]]) {
+            NSArray *responseArray = responseObject;
+            //TODO ??
+        } else if ([responseObject isKindOfClass:[NSDictionary class]]) {
+            NSDictionary *responseDict = responseObject;
+            [weakSelf moveToNextView];
+        }
+
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         NSLog(@"Error: %@", error);
     }];
