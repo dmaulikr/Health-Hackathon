@@ -10,6 +10,8 @@
 		BBA0864B1A1F4A8E00D9EA03 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA0864A1A1F4A8E00D9EA03 /* LoginView.m */; };
 		BBA0864F1A1F4AAD00D9EA03 /* SyncView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA0864E1A1F4AAD00D9EA03 /* SyncView.m */; };
 		BBA086521A1F4ABE00D9EA03 /* DashboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA086511A1F4ABE00D9EA03 /* DashboardView.m */; };
+		BBA086551A1F4C4E00D9EA03 /* ValueView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA086541A1F4C4E00D9EA03 /* ValueView.m */; };
+		BBA086581A1F4C5A00D9EA03 /* HistoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA086571A1F4C5A00D9EA03 /* HistoryView.m */; };
 		BBE733CC1A1F2D1400AF41D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE733CB1A1F2D1400AF41D9 /* main.m */; };
 		BBE733CF1A1F2D1400AF41D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE733CE1A1F2D1400AF41D9 /* AppDelegate.m */; };
 		BBE733D21A1F2D1400AF41D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE733D11A1F2D1400AF41D9 /* ViewController.m */; };
@@ -36,6 +38,10 @@
 		BBA0864E1A1F4AAD00D9EA03 /* SyncView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyncView.m; sourceTree = "<group>"; };
 		BBA086501A1F4ABE00D9EA03 /* DashboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashboardView.h; sourceTree = "<group>"; };
 		BBA086511A1F4ABE00D9EA03 /* DashboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashboardView.m; sourceTree = "<group>"; };
+		BBA086531A1F4C4E00D9EA03 /* ValueView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValueView.h; sourceTree = "<group>"; };
+		BBA086541A1F4C4E00D9EA03 /* ValueView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValueView.m; sourceTree = "<group>"; };
+		BBA086561A1F4C5A00D9EA03 /* HistoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryView.h; sourceTree = "<group>"; };
+		BBA086571A1F4C5A00D9EA03 /* HistoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryView.m; sourceTree = "<group>"; };
 		BBE733C61A1F2D1400AF41D9 /* Health Hackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Health Hackathon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBE733CA1A1F2D1400AF41D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBE733CB1A1F2D1400AF41D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -78,6 +84,10 @@
 				BBA0864E1A1F4AAD00D9EA03 /* SyncView.m */,
 				BBA086501A1F4ABE00D9EA03 /* DashboardView.h */,
 				BBA086511A1F4ABE00D9EA03 /* DashboardView.m */,
+				BBA086531A1F4C4E00D9EA03 /* ValueView.h */,
+				BBA086541A1F4C4E00D9EA03 /* ValueView.m */,
+				BBA086561A1F4C5A00D9EA03 /* HistoryView.h */,
+				BBA086571A1F4C5A00D9EA03 /* HistoryView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -247,6 +257,8 @@
 				BBA086521A1F4ABE00D9EA03 /* DashboardView.m in Sources */,
 				BBE733D21A1F2D1400AF41D9 /* ViewController.m in Sources */,
 				BBE733CF1A1F2D1400AF41D9 /* AppDelegate.m in Sources */,
+				BBA086551A1F4C4E00D9EA03 /* ValueView.m in Sources */,
+				BBA086581A1F4C5A00D9EA03 /* HistoryView.m in Sources */,
 				BBA0864B1A1F4A8E00D9EA03 /* LoginView.m in Sources */,
 				BBE733CC1A1F2D1400AF41D9 /* main.m in Sources */,
 			);

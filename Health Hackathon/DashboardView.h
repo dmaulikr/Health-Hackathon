@@ -10,4 +10,8 @@
 
 @interface DashboardView : ViewController
 
+- (IBAction)valueMinusPressed:(id)sender;
+- (IBAction)valuePlusPressed:(id)sender;
+- (IBAction)historyButtonPressed:(id)sender;
+
 @end
