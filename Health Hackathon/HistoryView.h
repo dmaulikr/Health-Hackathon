@@ -9,8 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface HistoryView : UIViewController
-<<<<<<< HEAD
-=======
 
 @property (weak, nonatomic) IBOutlet UIView *day1;
 @property (weak, nonatomic) IBOutlet UIView *day2;
@@ -44,6 +42,5 @@
 @property (weak, nonatomic) IBOutlet UIView *day30;
 @property (weak, nonatomic) IBOutlet UIView *day31;
 @property (weak, nonatomic) IBOutlet UIScrollView *ScrollHistoria;
->>>>>>> FETCH_HEAD
 
 @end
