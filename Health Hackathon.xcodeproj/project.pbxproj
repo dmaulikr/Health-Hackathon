@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BBA0864B1A1F4A8E00D9EA03 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA0864A1A1F4A8E00D9EA03 /* LoginView.m */; };
+		BBA0864F1A1F4AAD00D9EA03 /* SyncView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA0864E1A1F4AAD00D9EA03 /* SyncView.m */; };
+		BBA086521A1F4ABE00D9EA03 /* DashboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA086511A1F4ABE00D9EA03 /* DashboardView.m */; };
 		BBE733CC1A1F2D1400AF41D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE733CB1A1F2D1400AF41D9 /* main.m */; };
 		BBE733CF1A1F2D1400AF41D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE733CE1A1F2D1400AF41D9 /* AppDelegate.m */; };
 		BBE733D21A1F2D1400AF41D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE733D11A1F2D1400AF41D9 /* ViewController.m */; };
@@ -27,6 +30,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BBA086491A1F4A8E00D9EA03 /* LoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
+		BBA0864A1A1F4A8E00D9EA03 /* LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
+		BBA0864D1A1F4AAD00D9EA03 /* SyncView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyncView.h; sourceTree = "<group>"; };
+		BBA0864E1A1F4AAD00D9EA03 /* SyncView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyncView.m; sourceTree = "<group>"; };
+		BBA086501A1F4ABE00D9EA03 /* DashboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashboardView.h; sourceTree = "<group>"; };
+		BBA086511A1F4ABE00D9EA03 /* DashboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashboardView.m; sourceTree = "<group>"; };
 		BBE733C61A1F2D1400AF41D9 /* Health Hackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Health Hackathon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBE733CA1A1F2D1400AF41D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBE733CB1A1F2D1400AF41D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,6 +69,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BBA0864C1A1F4A9300D9EA03 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BBA086491A1F4A8E00D9EA03 /* LoginView.h */,
+				BBA0864A1A1F4A8E00D9EA03 /* LoginView.m */,
+				BBA0864D1A1F4AAD00D9EA03 /* SyncView.h */,
+				BBA0864E1A1F4AAD00D9EA03 /* SyncView.m */,
+				BBA086501A1F4ABE00D9EA03 /* DashboardView.h */,
+				BBA086511A1F4ABE00D9EA03 /* DashboardView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		BBE733BD1A1F2D1400AF41D9 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +103,7 @@
 		BBE733C81A1F2D1400AF41D9 /* Health Hackathon */ = {
 			isa = PBXGroup;
 			children = (
+				BBA0864C1A1F4A9300D9EA03 /* Views */,
 				BBE733CD1A1F2D1400AF41D9 /* AppDelegate.h */,
 				BBE733CE1A1F2D1400AF41D9 /* AppDelegate.m */,
 				BBE733D01A1F2D1400AF41D9 /* ViewController.h */,
@@ -220,8 +243,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBA0864F1A1F4AAD00D9EA03 /* SyncView.m in Sources */,
+				BBA086521A1F4ABE00D9EA03 /* DashboardView.m in Sources */,
 				BBE733D21A1F2D1400AF41D9 /* ViewController.m in Sources */,
 				BBE733CF1A1F2D1400AF41D9 /* AppDelegate.m in Sources */,
+				BBA0864B1A1F4A8E00D9EA03 /* LoginView.m in Sources */,
 				BBE733CC1A1F2D1400AF41D9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,6 +441,7 @@
 				BBE733EB1A1F2D1400AF41D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BBE733EC1A1F2D1400AF41D9 /* Build configuration list for PBXNativeTarget "Health HackathonTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +450,7 @@
 				BBE733EE1A1F2D1400AF41D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

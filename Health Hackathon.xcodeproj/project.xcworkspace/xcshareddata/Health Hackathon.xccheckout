@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>41569B01-1160-414C-844B-631035716099</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Health Hackathon</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C685FDD42685A28968ADB2BCAD6F2DF0117A6190</key>
+		<string>https://github.com/Thrusher/Health-Hackathon.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Health Hackathon.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C685FDD42685A28968ADB2BCAD6F2DF0117A6190</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Thrusher/Health-Hackathon.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C685FDD42685A28968ADB2BCAD6F2DF0117A6190</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C685FDD42685A28968ADB2BCAD6F2DF0117A6190</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Health%20Hackathon</string>
+		</dict>
+	</array>
+</dict>
+</plist>
