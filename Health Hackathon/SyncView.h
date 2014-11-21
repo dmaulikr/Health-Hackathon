@@ -8,7 +8,7 @@
 #import <UIKit/UIKit.h>
 #import "AFNetworking.h"
 #import "AppDelegate.h"
-@interface SyncView : UIViewController
+@interface SyncView : UIViewController <UIAlertViewDelegate>
 @property (nonatomic, strong) AppDelegate *appDelegate;
 
 @end

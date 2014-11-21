@@ -20,10 +20,36 @@
 
 -(void)viewWillAppear:(BOOL)animated
 {
-    [self performSegueWithIdentifier:@"syncToLogin" sender:self];
+    //[self performSegueWithIdentifier:@"syncToLogin" sender:self];
 
     [self initVariables];
-    [self login];
+    [self manageLogin];
+}
+
+-(void)manageLogin
+{
+    if ([self isTokenAvailable]) {
+        NSUserDefaults *userSavedData = [[NSUserDefaults alloc]init];
+        NSString *token = [userSavedData objectForKey:@"token"];
+        self.appDelegate.token = token;
+        [self performSegueWithIdentifier:@"syncToDashboard" sender:self];
+    }
+    else
+    {
+        [self performSegueWithIdentifier:@"syncToLogin" sender:self];
+    }
+}
+
+-(BOOL)isTokenAvailable
+{
+    NSUserDefaults *userSavedData = [[NSUserDefaults alloc]init];
+    if ([userSavedData objectForKey:@"token"] != nil) {
+        return YES;
+    }
+    else
+    {
+        return NO;
+    }
 }
 
 -(void)initVariables
@@ -31,39 +57,46 @@
     self.appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
 }
 
--(void)login
-{
-    __weak SyncView *weakSelf = self;
+//-(void)login
+//{
+//    
+//    __weak SyncView *weakSelf = self;
+//    AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+//    manager.requestSerializer = [AFJSONRequestSerializer serializer];
+//    NSString *uuidString = [[NSUUID UUID] UUIDString];
+//    NSString *url = [NSString stringWithFormat:@"%@/%@",self.appDelegate.serverUrl,uuidString];
+//    NSLog(@"url %@",url);
+//
+//    NSDictionary *deviceDic = [[NSDictionary alloc]initWithObjectsAndKeys:userInfoDic,@"device",nil];
+//    [manager GET:url parameters:deviceDic success:^(AFHTTPRequestOperation *operation, id responseObject) {
+//        NSLog(@"JSON: %@", responseObject);
+//        if ([responseObject isKindOfClass:[NSArray class]]) {
+//            NSArray *responseArray = responseObject;
+//            // No Array ?
+//        } else if ([responseObject isKindOfClass:[NSDictionary class]]) {
+//            NSDictionary *responseDict = responseObject;
+//            [weakSelf moveToNextView:responseDict];
+//        }
+//    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+//        NSLog(@"Error: %@", error);
+//        [weakSelf alerViewError:@"server jest skopany"];
+//    }];
+//}
 
-    AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
-    manager.requestSerializer = [AFJSONRequestSerializer serializer];
-
-    NSString *uuidString = [[NSUUID UUID] UUIDString];
-    NSLog(@"uuid %@",uuidString);
-    //NSDictionary *parameters = @{@"uuidString": @"device_no"};
-    
-    NSString *url = [NSString stringWithFormat:@"%@/%@",self.appDelegate.serverUrl,uuidString];
-    NSLog(@"url %@",url);
-
-    [manager POST:url parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
-        NSLog(@"JSON: %@", responseObject);
-        if ([responseObject isKindOfClass:[NSArray class]]) {
-            NSArray *responseArray = responseObject;
-            //TODO ??
-        } else if ([responseObject isKindOfClass:[NSDictionary class]]) {
-            NSDictionary *responseDict = responseObject;
-            [weakSelf moveToNextView];
-        }
-
-    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-        NSLog(@"Error: %@", error);
-    }];
-}
-
--(void)moveToNextView
-{
-    [self performSegueWithIdentifier:@"syncToLogin" sender:self];
-}
+//-(void)moveToNextView:(NSDictionary *)responseDic
+//{
+//    if ([responseDic objectForKey:@"token"] != nil) {
+//        NSString *token = [responseDic objectForKey:@"token"];
+//        NSUserDefaults *userSavedData = [[NSUserDefaults alloc]init];
+//        [userSavedData setObject:token forKey:@"token"];
+//        self.appDelegate.token = token;
+//        [self performSegueWithIdentifier:@"syncToDashboard" sender:self];
+//    }
+//    else
+//    {
+//        [self performSegueWithIdentifier:@"syncToLogin" sender:self];
+//    }
+//}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

@@ -18,6 +18,11 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     self.serverUrl = @"http://10.1.2.34:3000";
+    
+    NSUserDefaults *userSavedData = [[NSUserDefaults alloc]init];
+    if ([userSavedData objectForKey:@"token"] != nil) {
+        self.token = [userSavedData objectForKey:@"token"];
+    }
 
     return YES;
 }
