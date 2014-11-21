@@ -20,7 +20,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [_ScrollHistoria setScrollEnabled:YES];
+    [_ScrollHistoria setContentSize:CGSizeMake(375, 930)];
 }
 
 - (void)didReceiveMemoryWarning {
