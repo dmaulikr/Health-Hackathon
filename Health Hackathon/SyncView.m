@@ -16,8 +16,44 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+}
+
+-(void)viewWillAppear:(BOOL)animated
+{
     [self performSegueWithIdentifier:@"syncToLogin" sender:self];
 
+    [self initVariables];
+    [self login];
+}
+
+-(void)initVariables
+{
+    self.appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+}
+
+-(void)login
+{
+    __weak SyncView *weakSelf = self;
+
+    AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+    NSString *uuidString = [[NSUUID UUID] UUIDString];
+    NSLog(@"uuid %@",uuidString);
+    NSDictionary *parameters = @{@"uuidString": @"device_no"};
+    
+    NSString *url = [NSString stringWithFormat:@"%@/%@",self.appDelegate.serverUrl,uuidString];
+    NSLog(@"url %@",url);
+
+    [manager POST:url parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
+        NSLog(@"JSON: %@", responseObject);
+        [weakSelf moveToNextView];
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        NSLog(@"Error: %@", error);
+    }];
+}
+
+-(void)moveToNextView
+{
+    [self performSegueWithIdentifier:@"syncToLogin" sender:self];
 }
 
 - (void)didReceiveMemoryWarning {

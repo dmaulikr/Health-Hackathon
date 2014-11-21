@@ -7,7 +7,9 @@
 //
 
 #import "ViewController.h"
-
+#import "AFNetworking.h"
+#import "AppDelegate.h"
 @interface SyncView : ViewController
+@property (nonatomic, strong) AppDelegate *appDelegate;
 
 @end
