@@ -36,16 +36,13 @@
 
 - (IBAction)valueMinusPressed:(id)sender {
     [self performSegueWithIdentifier:@"dashboardToValue" sender:self];
-
 }
 
 - (IBAction)valuePlusPressed:(id)sender {
     [self performSegueWithIdentifier:@"dashboardToValue" sender:self];
-
 }
 
 - (IBAction)historyButtonPressed:(id)sender {
     [self performSegueWithIdentifier:@"dashboardToHistory" sender:self];
-
 }
 @end
