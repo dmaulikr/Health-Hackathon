@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "AppDelegate.h"
 @interface DashboardView : UIViewController
 @property (nonatomic) BOOL isMinusPressed;
+@property (strong, nonatomic) AppDelegate *appDelegate;
+
 - (IBAction)valueMinusPressed:(id)sender;
 - (IBAction)valuePlusPressed:(id)sender;
 - (IBAction)historyButtonPressed:(id)sender;
