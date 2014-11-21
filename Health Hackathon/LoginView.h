@@ -10,6 +10,7 @@
 #import "AFNetworking.h"
 #import "AppDelegate.h"
 #import "UserInformationModel.h"
+
 @interface LoginView : UIViewController
 @property (weak, nonatomic) IBOutlet UIButton *nextButton;
 @property (weak, nonatomic) IBOutlet UITextField *ageTextField;
