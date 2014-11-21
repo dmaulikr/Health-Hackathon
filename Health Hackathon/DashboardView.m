@@ -7,8 +7,9 @@
 //
 
 #import "DashboardView.h"
-
+#import "ValueView.h"
 @interface DashboardView ()
+
 @property (weak, nonatomic) IBOutlet UIView *KaloriaPlus;
 @property (weak, nonatomic) IBOutlet UIView *CaloriaMenus;
 
@@ -28,6 +29,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+<<<<<<< HEAD
 -(void)viewWillAppear:(BOOL)animated
 {
     CGRect koloriaPlusFrame =  _KaloriaPlus.frame;
@@ -56,20 +58,36 @@
 }
 
 /*
+=======
+
+>>>>>>> FETCH_HEAD
 #pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-     Get the new view controller using [segue destinationViewController].
-     Pass the selected object to the new view controller.
+    if ([[segue identifier] isEqualToString:@"dashboardToValue"])
+    {
+        ValueView *vc = [segue destinationViewController];
+        NSLog(@"isMinusPressed %hhd",self.isMinusPressed);
+        vc.isMinus = self.isMinusPressed;
+        if (self.isMinusPressed) {
+            [vc setInformation:@"Minus"];
+        }
+        else
+        {
+            [vc setInformation:@"Plus"];
+        }
+        //[vc setIsMinus:self.isMinusPressed];
+    }
 }
-*/
+
 
 - (IBAction)valueMinusPressed:(id)sender {
+    self.isMinusPressed = YES;
     [self performSegueWithIdentifier:@"dashboardToValue" sender:self];
 }
 
 - (IBAction)valuePlusPressed:(id)sender {
+    self.isMinusPressed = NO;
     [self performSegueWithIdentifier:@"dashboardToValue" sender:self];
 }
 

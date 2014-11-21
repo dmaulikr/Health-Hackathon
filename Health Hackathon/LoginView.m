@@ -28,15 +28,19 @@
 -(void)setAgeTextField:(UITextField *)textField
 {
     textField.keyboardType = UIKeyboardTypeNumberPad;
+    ageTextField = textField;
 }
 
 -(void)setWeightTextField:(UITextField *)textField{
     textField.keyboardType = UIKeyboardTypeNumberPad;
+    weightTextField = textField;
+
 }
 
 -(void)setHeightTextField:(UITextField *)textField
 {
     textField.keyboardType = UIKeyboardTypeNumberPad;
+    heightTextField = textField;
 }
 
 -(void)initVariables
@@ -82,22 +86,8 @@
     
     UserInformationModel *userInfo = [self createUserInfoObject];
     
-    
-    
     NSDictionary *userInfoDic = [[NSDictionary alloc]initWithObjectsAndKeys:userInfo.heigh,@"height",userInfo.weight,@"weight",userInfo.age,@"age",userInfo.sex,@"sex", nil];
     NSDictionary *deviceDic = [[NSDictionary alloc]initWithObjectsAndKeys:userInfoDic,@"device",nil];
-
-    NSError *error;
-    NSData *jsonData = [NSJSONSerialization dataWithJSONObject:deviceDic
-                                                       options:NSJSONWritingPrettyPrinted // Pass 0 if you don't care about the readability of the generated string
-                                                         error:&error];
-    NSString *jsonString = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
-
-    if (! jsonData) {
-        NSLog(@"Got an error: %@", error);
-    } else {
-        jsonString = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
-    }
     
     NSString *uuidString = [[NSUUID UUID] UUIDString];
     NSString *url = [NSString stringWithFormat:@"%@/%@",self.appDelegate.serverUrl,uuidString];
@@ -136,9 +126,11 @@
 -(UserInformationModel *)createUserInfoObject
 {
     float heightFloat = [heightTextField.text floatValue];
-    NSString *heigh = [NSString stringWithFormat:@"%f.02f",heightFloat];
+    NSString *heigh = [NSString stringWithFormat:@"%.02f",heightFloat];
+    
     float weidthFloat = [weightTextField.text floatValue];
-    NSString *weight = [NSString stringWithFormat:@"%f.02f",weidthFloat];
+    NSString *weight = [NSString stringWithFormat:@"%.02f",weidthFloat];
+    
     NSString *age = [NSString stringWithFormat:@"%d",[ageTextField.text intValue]];
     NSString *sex = [NSString stringWithFormat:@"%d",sexSegment.selectedSegmentIndex];
     
