@@ -9,6 +9,8 @@
 #import "DashboardView.h"
 
 @interface DashboardView ()
+@property (weak, nonatomic) IBOutlet UIView *KaloriaPlus;
+@property (weak, nonatomic) IBOutlet UIView *CaloriaMenus;
 
 @end
 

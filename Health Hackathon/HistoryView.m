@@ -104,6 +104,17 @@
         _day6.frame = (CGRectMake(57, 148, 221, 19));
     } completion:^(BOOL finished) {
     }];
+    
+    [UIView animateWithDuration:1.0 delay:0 options:UIViewAnimationOptionTransitionFlipFromLeft animations:^{
+        _day7.frame = (CGRectMake(57, 175, 184, 19));
+    } completion:^(BOOL finished) {
+    }];
+    
+    [UIView animateWithDuration:1.0 delay:0 options:UIViewAnimationOptionTransitionFlipFromLeft animations:^{
+        _day8.frame = (CGRectMake(57, 202, 203, 19));
+    } completion:^(BOOL finished) {
+    }];
+
 
 
 
