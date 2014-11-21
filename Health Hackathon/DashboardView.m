@@ -18,12 +18,41 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.plus = 3000;
+    self.minus = 1500;
     // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void)viewWillAppear:(BOOL)animated
+{
+    CGRect koloriaPlusFrame =  _KaloriaPlus.frame;
+    koloriaPlusFrame.size.height = 0;
+    _KaloriaPlus.frame = koloriaPlusFrame;
+    
+    CGRect colorialMinusFrame =  _CaloriaMenus.frame;
+    colorialMinusFrame.size.height = 0;
+    _CaloriaMenus.frame = colorialMinusFrame;
+}
+
+-(void)viewDidAppear:(BOOL)animated
+{
+    
+    CGRect koloriaPlusFrame =  _KaloriaPlus.frame;
+    koloriaPlusFrame.size.height = self.plus;
+    
+    CGRect colorialMinusFrame =  _CaloriaMenus.frame;
+    colorialMinusFrame.size.height = self.minus;
+    
+    [UIView animateWithDuration:2.0 delay:0 options:UIViewAnimationOptionTransitionFlipFromBottom animations:^{
+        _CaloriaMenus.frame = colorialMinusFrame;
+        _KaloriaPlus.frame = koloriaPlusFrame;
+    } completion:^(BOOL finished) {
+    }];
 }
 
 /*

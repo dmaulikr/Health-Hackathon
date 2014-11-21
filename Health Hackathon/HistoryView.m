@@ -80,40 +80,108 @@
     } completion:^(BOOL finished) {
     }];
 
-    [UIView animateWithDuration:1.0 delay:0 options:UIViewAnimationOptionTransitionFlipFromLeft animations:^{
+    [UIView animateWithDuration:1.0 delay:0.2 options:UIViewAnimationOptionTransitionFlipFromLeft animations:^{
         _day2.frame = (CGRectMake(57, 29, 221, 19));
     } completion:^(BOOL finished) {
     }];
     
-    [UIView animateWithDuration:1.0 delay:0 options:UIViewAnimationOptionTransitionFlipFromLeft animations:^{
+    [UIView animateWithDuration:1.0 delay:0.3 options:UIViewAnimationOptionTransitionFlipFromLeft animations:^{
         _day3.frame = (CGRectMake(57, 57, 155, 19));
     } completion:^(BOOL finished) {
     }];
     
-    [UIView animateWithDuration:1.0 delay:0 options:UIViewAnimationOptionTransitionFlipFromLeft animations:^{
+    [UIView animateWithDuration:1.0 delay:0.4 options:UIViewAnimationOptionTransitionFlipFromLeft animations:^{
         _day4.frame = (CGRectMake(57, 89, 284, 19));
     } completion:^(BOOL finished) {
     }];
     
-    [UIView animateWithDuration:1.0 delay:0 options:UIViewAnimationOptionTransitionFlipFromLeft animations:^{
+    [UIView animateWithDuration:1.0 delay:0.5 options:UIViewAnimationOptionTransitionFlipFromLeft animations:^{
         _day5.frame = (CGRectMake(57, 116, 216, 19));
     } completion:^(BOOL finished) {
     }];
     
-    [UIView animateWithDuration:1.0 delay:0 options:UIViewAnimationOptionTransitionFlipFromLeft animations:^{
+    [UIView animateWithDuration:1.0 delay:0.6 options:UIViewAnimationOptionTransitionFlipFromLeft animations:^{
         _day6.frame = (CGRectMake(57, 148, 221, 19));
     } completion:^(BOOL finished) {
     }];
     
-    [UIView animateWithDuration:1.0 delay:0 options:UIViewAnimationOptionTransitionFlipFromLeft animations:^{
+    [UIView animateWithDuration:1.0 delay:0.7 options:UIViewAnimationOptionTransitionFlipFromLeft animations:^{
         _day7.frame = (CGRectMake(57, 175, 184, 19));
     } completion:^(BOOL finished) {
     }];
     
-    [UIView animateWithDuration:1.0 delay:0 options:UIViewAnimationOptionTransitionFlipFromLeft animations:^{
+    [UIView animateWithDuration:1.0 delay:0.8 options:UIViewAnimationOptionTransitionFlipFromLeft animations:^{
         _day8.frame = (CGRectMake(57, 202, 203, 19));
     } completion:^(BOOL finished) {
     }];
+    
+    [UIView animateWithDuration:1.0 delay:0.9 options:UIViewAnimationOptionTransitionFlipFromLeft animations:^{
+        _day9.frame = (CGRectMake(57, 229, 301, 19));
+    } completion:^(BOOL finished) {
+    }];
+    
+    [UIView animateWithDuration:1.0 delay:1.0 options:UIViewAnimationOptionTransitionFlipFromLeft animations:^{
+        _day10.frame = (CGRectMake(57, 259, 240, 19));
+    } completion:^(BOOL finished) {
+    }];
+    
+    [UIView animateWithDuration:1.0 delay:1.1 options:UIViewAnimationOptionTransitionFlipFromLeft animations:^{
+        _day11.frame = (CGRectMake(57, 288, 147, 19));
+    } completion:^(BOOL finished) {
+    }];
+    
+    [UIView animateWithDuration:1.0 delay:1.2 options:UIViewAnimationOptionTransitionFlipFromLeft animations:^{
+        _day12.frame = (CGRectMake(57, 317, 260, 19));
+    } completion:^(BOOL finished) {
+    }];
+    
+    [UIView animateWithDuration:1.0 delay:1.3 options:UIViewAnimationOptionTransitionFlipFromLeft animations:^{
+        _day13.frame = (CGRectMake(57, 348, 208, 19));
+    } completion:^(BOOL finished) {
+    }];
+    
+    [UIView animateWithDuration:1.0 delay:1.4 options:UIViewAnimationOptionTransitionFlipFromLeft animations:^{
+        _day14.frame = (CGRectMake(57, 375, 203, 19));
+    } completion:^(BOOL finished) {
+    }];
+    
+    [UIView animateWithDuration:1.0 delay:1.5 options:UIViewAnimationOptionTransitionFlipFromLeft animations:^{
+        _day15.frame = (CGRectMake(57, 405, 284, 19));
+    } completion:^(BOOL finished) {
+    }];
+    
+    [UIView animateWithDuration:1.0 delay:1.6 options:UIViewAnimationOptionTransitionFlipFromLeft animations:^{
+        _day16.frame = (CGRectMake(57, 434, 249, 19));
+    } completion:^(BOOL finished) {
+    }];
+    
+    [UIView animateWithDuration:1.0 delay:1.7 options:UIViewAnimationOptionTransitionFlipFromLeft animations:^{
+        _day17.frame = (CGRectMake(57, 464, 221, 19));
+    } completion:^(BOOL finished) {
+    }];
+    
+    [UIView animateWithDuration:1.0 delay:1.8 options:UIViewAnimationOptionTransitionFlipFromLeft animations:^{
+        _day18.frame = (CGRectMake(57, 491, 165, 19));
+    } completion:^(BOOL finished) {
+    }];
+    
+    [UIView animateWithDuration:1.0 delay:1.9 options:UIViewAnimationOptionTransitionFlipFromLeft animations:^{
+        _day19.frame = (CGRectMake(57, 517, 165, 19));
+    } completion:^(BOOL finished) {
+    }];
+    
+    [UIView animateWithDuration:1.0 delay:2.0 options:UIViewAnimationOptionTransitionFlipFromLeft animations:^{
+        _day20.frame = (CGRectMake(57, 543, 147, 19));
+    } completion:^(BOOL finished) {
+    }];
+    
+    [UIView animateWithDuration:1.0 delay:2.1 options:UIViewAnimationOptionTransitionFlipFromLeft animations:^{
+        _day21.frame = (CGRectMake(57, 569, 221, 19));
+    } completion:^(BOOL finished) {
+    }];
+
+
+
 
 
 

@@ -15,6 +15,14 @@
 		88C8C5591A1F6DC800690AF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C8C5581A1F6DC800690AF8 /* Foundation.framework */; };
 		88C8C55B1A1F6DD800690AF8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C8C55A1A1F6DD800690AF8 /* CoreGraphics.framework */; };
 		88C8C55E1A1F6E3C00690AF8 /* UIView+AOAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C8C55D1A1F6E3C00690AF8 /* UIView+AOAnimation.m */; };
+		88C8C5651A1F93F400690AF8 /* calculadora_calorias_bicicleta.png in Resources */ = {isa = PBXBuildFile; fileRef = 88C8C55F1A1F93F400690AF8 /* calculadora_calorias_bicicleta.png */; };
+		88C8C5661A1F93F400690AF8 /* calculadora_calorias_quemadas.png in Resources */ = {isa = PBXBuildFile; fileRef = 88C8C5601A1F93F400690AF8 /* calculadora_calorias_quemadas.png */; };
+		88C8C5671A1F93F400690AF8 /* calculadora_calorias.png in Resources */ = {isa = PBXBuildFile; fileRef = 88C8C5611A1F93F400690AF8 /* calculadora_calorias.png */; };
+		88C8C5681A1F93F400690AF8 /* calculadora_calorias_nadar.png in Resources */ = {isa = PBXBuildFile; fileRef = 88C8C5621A1F93F400690AF8 /* calculadora_calorias_nadar.png */; };
+		88C8C5691A1F93F400690AF8 /* calculadora_calorias_pilates.png in Resources */ = {isa = PBXBuildFile; fileRef = 88C8C5631A1F93F400690AF8 /* calculadora_calorias_pilates.png */; };
+		88C8C56A1A1F93F400690AF8 /* calculadora_calorias_andar.png in Resources */ = {isa = PBXBuildFile; fileRef = 88C8C5641A1F93F400690AF8 /* calculadora_calorias_andar.png */; };
+		88C8C56C1A1F957800690AF8 /* ham.png in Resources */ = {isa = PBXBuildFile; fileRef = 88C8C56B1A1F957800690AF8 /* ham.png */; };
+		88C8C56F1A1F95E800690AF8 /* Anual.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C8C56E1A1F95E800690AF8 /* Anual.m */; };
 		BB03AB881A1F6928002F58D7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB03AB861A1F6928002F58D7 /* CFNetwork.framework */; };
 		BB03AB891A1F6928002F58D7 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB03AB871A1F6928002F58D7 /* NetworkExtension.framework */; };
 		BBA0864B1A1F4A8E00D9EA03 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA0864A1A1F4A8E00D9EA03 /* LoginView.m */; };
@@ -60,6 +68,15 @@
 		88C8C55A1A1F6DD800690AF8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		88C8C55C1A1F6E3C00690AF8 /* UIView+AOAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AOAnimation.h"; sourceTree = "<group>"; };
 		88C8C55D1A1F6E3C00690AF8 /* UIView+AOAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AOAnimation.m"; sourceTree = "<group>"; };
+		88C8C55F1A1F93F400690AF8 /* calculadora_calorias_bicicleta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calculadora_calorias_bicicleta.png; sourceTree = "<group>"; };
+		88C8C5601A1F93F400690AF8 /* calculadora_calorias_quemadas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calculadora_calorias_quemadas.png; sourceTree = "<group>"; };
+		88C8C5611A1F93F400690AF8 /* calculadora_calorias.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calculadora_calorias.png; sourceTree = "<group>"; };
+		88C8C5621A1F93F400690AF8 /* calculadora_calorias_nadar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calculadora_calorias_nadar.png; sourceTree = "<group>"; };
+		88C8C5631A1F93F400690AF8 /* calculadora_calorias_pilates.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calculadora_calorias_pilates.png; sourceTree = "<group>"; };
+		88C8C5641A1F93F400690AF8 /* calculadora_calorias_andar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calculadora_calorias_andar.png; sourceTree = "<group>"; };
+		88C8C56B1A1F957800690AF8 /* ham.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ham.png; sourceTree = "<group>"; };
+		88C8C56D1A1F95E800690AF8 /* Anual.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Anual.h; sourceTree = "<group>"; };
+		88C8C56E1A1F95E800690AF8 /* Anual.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Anual.m; sourceTree = "<group>"; };
 		BB03AB861A1F6928002F58D7 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		BB03AB871A1F6928002F58D7 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
 		BBA086491A1F4A8E00D9EA03 /* LoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
@@ -132,6 +149,13 @@
 		88C8C5451A1F51D000690AF8 /* GRAPHIC */ = {
 			isa = PBXGroup;
 			children = (
+				88C8C56B1A1F957800690AF8 /* ham.png */,
+				88C8C55F1A1F93F400690AF8 /* calculadora_calorias_bicicleta.png */,
+				88C8C5601A1F93F400690AF8 /* calculadora_calorias_quemadas.png */,
+				88C8C5611A1F93F400690AF8 /* calculadora_calorias.png */,
+				88C8C5621A1F93F400690AF8 /* calculadora_calorias_nadar.png */,
+				88C8C5631A1F93F400690AF8 /* calculadora_calorias_pilates.png */,
+				88C8C5641A1F93F400690AF8 /* calculadora_calorias_andar.png */,
 				88C8C5461A1F51DC00690AF8 /* 25336.png */,
 				88C8C5471A1F51DC00690AF8 /* cc.large.png */,
 				88C8C5481A1F51DC00690AF8 /* 13685.png */,
@@ -247,6 +271,8 @@
 				BBE733CD1A1F2D1400AF41D9 /* AppDelegate.h */,
 				BBE733CE1A1F2D1400AF41D9 /* AppDelegate.m */,
 				BBE733D31A1F2D1400AF41D9 /* Main.storyboard */,
+				88C8C56D1A1F95E800690AF8 /* Anual.h */,
+				88C8C56E1A1F95E800690AF8 /* Anual.m */,
 				BBE733D61A1F2D1400AF41D9 /* Images.xcassets */,
 				BBE733D81A1F2D1400AF41D9 /* LaunchScreen.xib */,
 				BBE733C91A1F2D1400AF41D9 /* Supporting Files */,
@@ -366,12 +392,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBE733D51A1F2D1400AF41D9 /* Main.storyboard in Resources */,
+				88C8C5671A1F93F400690AF8 /* calculadora_calorias.png in Resources */,
 				BBE733DA1A1F2D1400AF41D9 /* LaunchScreen.xib in Resources */,
+				88C8C5661A1F93F400690AF8 /* calculadora_calorias_quemadas.png in Resources */,
+				88C8C5691A1F93F400690AF8 /* calculadora_calorias_pilates.png in Resources */,
+				88C8C56A1A1F93F400690AF8 /* calculadora_calorias_andar.png in Resources */,
+				88C8C56C1A1F957800690AF8 /* ham.png in Resources */,
 				88C8C54A1A1F51DC00690AF8 /* cc.large.png in Resources */,
 				88C8C54B1A1F51DC00690AF8 /* 13685.png in Resources */,
+				88C8C5651A1F93F400690AF8 /* calculadora_calorias_bicicleta.png in Resources */,
 				88C8C54D1A1F545D00690AF8 /* cuadricula.png in Resources */,
 				BBE733D71A1F2D1400AF41D9 /* Images.xcassets in Resources */,
 				88C8C5491A1F51DC00690AF8 /* 25336.png in Resources */,
+				88C8C5681A1F93F400690AF8 /* calculadora_calorias_nadar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +437,7 @@
 				BBA0864B1A1F4A8E00D9EA03 /* LoginView.m in Sources */,
 				BBA0876D1A1F4FC900D9EA03 /* AFURLRequestSerialization.m in Sources */,
 				BBA0876A1A1F4FC900D9EA03 /* AFNetworkReachabilityManager.m in Sources */,
+				88C8C56F1A1F95E800690AF8 /* Anual.m in Sources */,
 				BBA0876E1A1F4FC900D9EA03 /* AFURLResponseSerialization.m in Sources */,
 				BBE733CC1A1F2D1400AF41D9 /* main.m in Sources */,
 			);

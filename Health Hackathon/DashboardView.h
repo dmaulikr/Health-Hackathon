@@ -13,5 +13,7 @@
 - (IBAction)valueMinusPressed:(id)sender;
 - (IBAction)valuePlusPressed:(id)sender;
 - (IBAction)historyButtonPressed:(id)sender;
+@property(nonatomic) int plus;
+@property(nonatomic) int minus;
 
 @end
